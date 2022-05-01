@@ -7,8 +7,6 @@ app.get('/', (req,res,next)=>{
     res.send('Hello World');
 })
 
-app.get('/',(req,res,next)=>{
-    res.status(200);
-});
+//testing git hub
 
 app.listen(PORT, () => {console.log(`Server is listening to port ${PORT}`)});
